@@ -1,0 +1,479 @@
+*{
+    box-sizing: border-box;
+}
+.home{
+    width: 93.75rem;
+    height: 46.875rem;
+    /* background-color: black; */
+}
+.home::before{
+    content: "";
+    background: url("/img/mk-1.jpg") no-repeat center center/cover;
+    /* background-color: aquamarine; */
+    /* background-color: #717171; */
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 94.75rem;
+    height: 48.875rem;
+    z-index: -1;
+    opacity: 0.7;
+}
+.nav{
+    display: flex;
+    /* width: 1000px; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 6.25rem;
+    
+}
+.logo{
+    width: 31.25rem;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 4.125rem;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(83, 93, 100);
+}
+.logo h3{
+    font-size: 2.5rem;
+    padding: 0.313rem 1.875rem;
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    color: rgb(83, 93, 100);
+    margin-left:  4.5rem;
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+    /* background-color: aqua; */
+    /* width: 10rem; */
+    margin-left: 2rem;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    /* font-size: 16px; */
+    border: none;
+    /* outline: none; */
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    /* padding: 0.625rem 0.625rem; */
+    /* margin-left: 2.5rem; */
+    font-size: 1.563rem;
+    color: rgb(83, 93, 100);
+    background-color: rgba(240, 255, 255, 0);
+ /* Important for vertical align on mobile phones */
+    /* margin: 0; Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+.icon1{
+    margin-left: 0px;
+    /* width: 100px; */
+}
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: rgba(83, 93, 100, 0.452); */
+    backdrop-filter: blur(3px);
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    /* padding: 0.625rem 0.625rem; */
+    /* margin-left: 2.5rem; */
+    font-size: 1.563rem;
+    color: rgb(83, 93, 100);
+    border-radius: 0.625rem;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    /* float: none; */
+    color: rgb(83, 93, 100);
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    /* text-align: left; */
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.navi{
+    text-decoration: none;
+    justify-items: right ;
+    padding: 1.875rem 1.875rem;
+    margin-left: 6.875rem;
+    /* width: 500px; */
+    height: 1.25rem;
+    /* background-color: rgba(142, 142, 252, 0.822); */
+    /* border-bottom-left-radius: 20%; */
+}
+.navi a{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    padding: 0.625rem 0.625rem;
+    margin-left: 2.5rem;
+    font-size: 1.563rem;
+    color: rgb(83, 93, 100);
+    /* border: 2px solid black; */
+}
+.navi a:hover{
+    text-shadow: 0px 0px 4px rgb(134, 148, 158); ;
+}
+.con{
+    height: 31.25rem;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    margin: 3.125rem 3.125rem;
+    /* margin-top: 10px; */
+    padding: 0rem 1.25rem;
+    padding-top: 1.875rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(83, 93, 100);
+    /* border: 2px solid black; */
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.p h1{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.p1{
+    margin: 0rem 3.125rem;
+    /* margin-top: 10px; */
+    padding: 1.25rem 3.125rem;
+    text-align: center;
+    font-size: 1.25rem;
+    color: black
+    /* border: 2px solid black; */
+}
+.icon1 a{
+    color: rgb(83, 93, 100);
+}
+.btn{
+    text-align: center;
+    width: 9.375rem;
+    height: 3.125rem;
+    background-color:rgba(0, 0, 0, 0.651);
+    color: white;
+    border-radius: 0.375rem;
+    margin-left: 0.625rem;
+    margin-top: 1.875rem;
+    border: 0rem solid white;
+    font-family: 'Lobster', cursive;
+    /* opacity: 0.7; */
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+.btn:hover{
+    background-color: rgba(11, 52, 90, 0.363);
+    box-shadow: 0rem 0rem 0.625rem rgb(83, 93, 100);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.con1{
+    width: 92.75rem;
+    height: 48.875rem;
+    /* background-color: blueviolet; */
+    padding: 0;
+    margin: 0;
+    margin-top: 1.875rem;
+    /* margin-right: 15px; */
+    margin: 0.438rem;
+    padding-left: 1rem;
+}
+
+.heading{
+    margin: 3.125rem 0rem;
+    margin-top: 0.625rem;
+    padding-left: 4rem;
+    padding-top: 1.875rem;
+    text-align: left;
+    width:92.75rem;
+}
+.heading p{
+    font-size: 1.25rem;
+    font-family: 'Secular One', sans-serif;
+}
+.gray{
+    color: rgb(133, 132, 132);
+}
+.box{
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+    /* background-color: aquamarine; */
+    width:93.175rem;
+    margin-left: 2rem;
+}
+.boxe{
+    margin: 2rem 2rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: rgba(235, 233, 233, 0.568);
+    /* border: 1px solid black; */
+    border-radius: 0.625rem;
+}
+.boxe:hover{
+    box-shadow: 0.313rem 0.313rem 1.875rem rgb(88, 87, 87);
+
+}
+.milan{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    padding: 1.25rem 0rem;
+    font-size: 1.5rem;
+    color: rgb(83, 93, 100);
+}
+.center{
+    font-family: 'Secular One', sans-serif;
+    text-align: justify;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.slide{
+    height: 31.25rem;
+}
+.col{
+    background-color: rgba(184, 184, 184, 0.637);
+    width: 93.175rem;
+    height: 102rem;
+    padding: 0.625rem;
+    margin-left: 0.438rem;
+} 
+.dsc{
+    /* display: flex; */
+    width: 43.75rem;
+    height: 18.75rem;
+    text-align: center;
+    margin-top: 7.5rem;
+    margin-bottom: 1.875rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.563rem;
+    /* background-color: rgb(243, 242, 242); */
+    /* background-color: black; */
+    font-family: 'Secular One', sans-serif;
+}
+.dsc a{
+    text-decoration: none;
+    color: rgba(84, 176, 252, 0.767);
+    font-family: 'Lobster', cursive;
+    font-size: 1.3rem;
+}
+.dsc a:hover{
+    color: rgba(5, 97, 172, 0.767);
+}
+hr{
+    width: 62.5rem;
+    margin-top: 0rem;
+}
+
+#des{
+    width: 62.5rem;
+    height: 31.25rem;
+    /* background-color: #717171; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem 12.5rem;
+}
+#des img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 12.5rem;
+}
+#des img:hover{
+        box-shadow: 5px 5px 100px rgb(53, 59, 63);
+}
+#des p{
+    margin: 0rem 1.25rem;
+    /* line-gap-override: 10px; */
+}
+.pa{
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+}   
+.p2{
+    font-size: 1.25rem;
+    text-align: justify;
+    color: rgb(83, 93, 100);
+}
+    /* letter-spacing: 5px; */
+
+.des{
+    width: 25rem;
+    margin-left: 5rem;
+    /* text-align: justify; */
+}
+#des1{
+    width: 62.5rem;
+    height: 31.25rem;
+    /* background-color: #717171; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem 18.75rem;
+}
+#des1 img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 12.5rem;
+    float: right;
+}
+#des1 img:hover{
+        box-shadow: 5px 5px 100px rgb(53, 59, 63);
+}
+.des1{
+    width: 25rem;
+    margin-right: 5rem;
+    /* text-align: justify; */
+}
+.new{
+    text-align: center;
+    /* margin-top: 8.125re; */
+    margin-bottom: 3.25rem;
+}
+.new p{
+    font-size: 1.25rem;
+}
+.new a{
+    text-decoration: none;
+    font-size: 0.813rem;
+    color: rgb(53, 59, 63);
+}
+.new a:hover{
+    text-shadow: 0px 0px 4px rgb(103, 113, 121);;
+}
+.party{
+    font-size: 1.25rem;
+    color: rgb(83, 93, 100);
+}
+
+.last{
+    height: 25rem;
+    width: 93.175rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.last3{
+    /* background-color: #717171; */
+    height: 25rem;
+    display: flex;
+    width: 56.25rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 17.625rem;
+    font-size: 1.563rem;
+}
+.last1{
+    margin: 0rem 6.25rem;
+    /* width: 700px; */
+    /* height: 50px; */
+    /* background-color: aqua; */
+}
+.last2{
+    justify-content: center;
+    align-items: center;
+    width: 28.125rem;
+}
+.last2 a{
+    text-decoration: none;
+    color: white;
+}
+.last2 button{
+    margin-top: 1.563rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    font-size: 1.25rem;
+    width: 12.5rem;
+    height: 3.125rem;
+    /* background-color: rgba(17, 89, 117, 0.795);*/
+    background-color : rgb(83, 93, 100);
+    border : 0rem solid white;
+    border-radius : 0.313rem;
+}
+.last2 button:hover{
+    background-color: rgb(105, 115, 122);
+    box-shadow: 0rem 0rem 0.625rem rgb(83, 93, 100);
+    cursor: pointer;
+}
+.end{
+    background-color: rgb(83, 93, 100);
+    color: white;
+    height: 25rem;
+    display: flex;
+    width: 93.175rem;
+    margin-left: 0.375rem;
+}
+.left{
+    width: 31.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9.375rem;
+    padding-top: 5rem;
+    height: 6.25rem;
+    /* background-color: #717171; */
+}
+.left a{
+    text-decoration: none;
+    color: white;
+}
+.left h3{
+    font-size: 2.5rem;
+    /* padding: 5px 0px; */
+    text-align: left;
+    font-family: 'Lobster', cursive;
+}
+.left p{
+    margin-bottom: 31.25rem;
+    /* background-color: #717171; */
+}
+.center1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;;
+    grid-template-rows: 0.15fr 0.15fr 0.15fr;
+    margin-top: 8.75rem;
+    /* background-color: #717171; */
+    font-size: 0.938rem;
+}
+.center1 a{
+    text-decoration: none;
+    color: white;
+}
+.right{
+    margin-top: 8.75rem;
+    display: flex;
+    /* padding: 10px 10px; */
+    /* margin-left: 5px; */
+}
+.icon{
+    margin: 0rem 0.625rem;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    width:75rem;
+    margin: 0rem 10rem;
+}
+/* responsiv */
